@@ -1,0 +1,19 @@
+h1. Konami in jQuery
+
+Fires the 'konami' event when the konami code has been completed.
+
+h2. Usage
+
+<pre>
+<code>
+	(function(){
+		function take_over_the_world() {
+			// this will get run when the konami code is completed
+		}
+
+		$.konami(take_over_the_world);
+	})();
+
+</code>
+</pre>
+
