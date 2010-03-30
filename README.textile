@@ -6,14 +6,16 @@ h2. Usage
 
 <pre>
 <code>
-	(function(){
-		function take_over_the_world() {
-			// this will get run when the konami code is completed
-		}
-
-		$.konami(take_over_the_world);
-	})();
-
+		$.konami(function() {
+		  // this will get run when the konami code is completed
+		});
 </code>
 </pre>
 
+h3. Changing the Cheat
+
+<pre>
+<code>
+  $.konami.cheat = [38,38,40,40,37,39,37,39,66,65,13]; // up up down down left right left right b a return
+</code>
+</pre>
