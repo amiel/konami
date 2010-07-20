@@ -19,3 +19,5 @@ h3. Changing the Cheat
   $.konami.cheat = [38,38,40,40,37,39,37,39,66,65,13]; // up up down down left right left right b a return
 </code>
 </pre>
+
+The default is <pre><code>[38,38,40,40,37,39,37,39,66,65]</code></pre> (up up down down left right left right b a).
