@@ -10,7 +10,7 @@ $.konami = (function() {
     
     $(document).bind('keydown',function(e) {
         if (e.keyCode == konami.cheat[cheatPos]) ++cheatPos; else cheatPos = 0;
-        if (cheatPos == konami.cheat.length) $.event.trigger(konami_event);
+        if (cheatPos == konami.cheat.length) $(window).trigger(konami_event);
     });
     return konami;
 })();
